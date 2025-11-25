@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 import tensorflow_hub as hub
 import torch, torchaudio, soundfile as sf
 
-# --- Local paths (normal use in IDE / GitHub) ---
+#Local path to positives and negatives folder
 positives_folder = "./positives"
 negatives_folder  = "./negatives"
 base_dir = "./pere_deer_output_xgb"
