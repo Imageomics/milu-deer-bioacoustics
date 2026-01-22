@@ -1,4 +1,4 @@
-# Wilds Multimodal Data
+# Wilds Multimodal Data Analysis
 
 A lightweight audio detection pipeline for identifying target wildlife vocalizations (e.g., deer) in field recordings.  
 This repository provides tools to **train** a binary audio classifier and **run inference** on long recordings to automatically extract detected segments.
