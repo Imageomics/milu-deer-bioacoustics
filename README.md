@@ -37,15 +37,9 @@ negatives/
 
 
 ## Installation
+Install the required Python packages using:
 
-Create a virtual environment (recommended):
-python -m venv .venv
-source .venv/bin/activate   # macOS / Linux
-# .venv\Scripts\activate    # Windows PowerShell
-
-Install dependencies:
 pip install -r requirements.txt
-
 
 ## Training the Model (`model-training.py`)
 
