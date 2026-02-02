@@ -56,7 +56,7 @@ The training script:
 - Applies probability calibration
 - Learns a decision threshold from validation data
 
-A trained model bundle (`.pkl`) is saved to an output directory (created automatically).  
+A trained model bundle (`.pkl`) is saved to the output directory specified in `demo.py` (see [configure and run](#configure-and-run).  
 This bundle includes all preprocessing steps and the calibrated classifier.
 
 ## Running Inference (`demo.py`)
