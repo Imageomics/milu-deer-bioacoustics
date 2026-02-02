@@ -85,7 +85,9 @@ Edit the following paths at the top of `demo.py`:
 - `bundle_path` — path to the trained `.pkl` model bundle  
 
 Then run:
+```bash
 python demo.py
+```
 
 ### Output structure
 
