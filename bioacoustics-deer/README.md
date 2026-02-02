@@ -87,11 +87,11 @@ pere_deer_output_xgb/
 
 ### Supported input formats
 
-- .wav
-- .mp3
-- .flac
-- .ogg
-- .m4a
+- `.wav`
+- `.mp3`
+- `.flac`
+- `.ogg`
+- `.m4a`
 
 ### How inference works
 
