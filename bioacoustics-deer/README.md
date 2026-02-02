@@ -18,10 +18,6 @@ This directory contains:
 - `requirements.txt`  
   A machine-readable list of pinned Python dependencies for reproducibility.
 
-- `LICENSE.md`  
-  Open-source license for this project.
-
-
 ## Training Dataset (Positives/Negatives)
 
 This project uses the [imageomics/pere-david-deer-vocalizations dataset](https://huggingface.co/datasets/imageomics/pere-david-deer-vocalizations), published on Hugging Face.
