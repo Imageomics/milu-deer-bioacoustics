@@ -56,7 +56,8 @@ The training script:
 - Applies probability calibration
 - Learns a decision threshold from validation data
 
-A trained model bundle (`.pkl`) is saved to the output directory specified in `demo.py` (see [configure and run](#configure-and-run).  
+A trained model bundle (`.pkl`) is saved to the output directory specified in `model-training.py` (default: `./pere_deer_output_xgb/`).  
+This folder (and its subfolders) is created automatically if it does not exist. (see [configure and run](#configure-and-run).  
 This bundle includes all preprocessing steps and the calibrated classifier.
 
 ## Running Inference (`demo.py`)
