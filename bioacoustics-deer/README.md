@@ -101,11 +101,13 @@ python demo.py
 
 ### Output structure
 
+```
 output_folder/  
 ├── detections.csv  
 ├── recording1_clip0003_p0.912.wav  
 ├── recording2_clip0017_p0.876.wav  
 └── ...  
+```
 
 The `detections.csv` file includes clip start/end times, probabilities, and source filenames.
 
