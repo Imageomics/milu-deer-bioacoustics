@@ -46,6 +46,7 @@ Notes:
 - Input format: `.wav`
 - Audio files may be any length
 - Sample rates do not need to match (handled internally)
+- In the current implementation, the training script expects `positives/` and `negatives/` to be located in the repository root.
 
 ### Run training
 
