@@ -37,8 +37,10 @@ pip install -r requirements.txt
 
 The training script expects the following folders at the project root:
 
+```
 positives/   # .wav files containing the target sound (label = 1)  
 negatives/   # .wav files NOT containing the target sound (label = 0)
+```
 
 Notes:
 - Input format: `.wav`
