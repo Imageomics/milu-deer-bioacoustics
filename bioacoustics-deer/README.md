@@ -49,7 +49,9 @@ Notes:
 
 ### Run training
 
+```bash
 python model-training.py
+```
 
 ### Training output
 
