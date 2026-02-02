@@ -7,7 +7,7 @@ The system uses **YAMNet embeddings**, **PCA**, and **XGBoost with probability c
 
 ## Subproject Overview
 
-This repository contains:
+This directory contains:
 
 - `model-training.py`  
   Trains a calibrated binary classifier from labeled audio data and exports a reusable model bundle.
