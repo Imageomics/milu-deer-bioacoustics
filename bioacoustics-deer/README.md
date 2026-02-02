@@ -139,9 +139,17 @@ The `detections.csv` file includes clip start/end times, probabilities, and sour
 This project makes use of the following tools and libraries:
 
 - YAMNet (TensorFlow Hub) — pretrained audio embedding model  
+  https://tfhub.dev/google/yamnet/1
+
 - XGBoost — gradient-boosted decision trees for classification  
+  https://xgboost.ai/
+
 - scikit-learn — preprocessing, PCA, and calibration utilities  
+  https://scikit-learn.org/stable/
+
 - PyTorch / torchaudio — audio loading and resampling  
+  https://pytorch.org/audio/stable/
+
 
 
 ## License
