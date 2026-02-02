@@ -22,19 +22,11 @@ This directory contains:
   Open-source license for this project.
 
 
-## Dataset (Positives/Negatives)
+## Training Dataset (Positives/Negatives)
 
-This project uses a dataset that is too large to store directly on GitHub, so it is hosted on the Hugging Face Hub:
+This project uses the [imageomics/pere-david-deer-vocalizations dataset](https://huggingface.co/datasets/imageomics/pere-david-deer-vocalizations), published on Hugging Face.
 
-https://huggingface.co/datasets/imageomics/pere-david-deer-vocalizations
-
-That link provides access to **both** the `positives/` and `negatives/` folders used to train the model.
-
-After downloading, place them at the repository root like:
-
-positives/  
-negatives/
-
+To work with this codebase, download **both** the `positives/` and `negatives/` folders into the repository root.
 
 ## Installation
 Install the required Python packages using:
