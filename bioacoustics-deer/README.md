@@ -27,7 +27,9 @@ To work with this codebase, download **both** the `positives/` and `negatives/` 
 ## Installation
 Install the required Python packages using:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Training the Model (`model-training.py`)
 
