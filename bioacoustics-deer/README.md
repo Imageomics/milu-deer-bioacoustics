@@ -5,7 +5,7 @@ This repository provides tools to **train** a binary audio classifier and **run 
 
 The system uses **YAMNet embeddings**, **PCA**, and **XGBoost with probability calibration** to produce interpretable detection scores.
 
-## Repository Overview
+## Subproject Overview
 
 This repository contains:
 
