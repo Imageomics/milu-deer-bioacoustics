@@ -61,6 +61,8 @@ A trained model bundle (`.pkl`) is saved to the output directory specified in `m
 ### Training output directory
 
 `model-training.py` saves all training artifacts to the following folder (created automatically):
+
+```
 pere_deer_output_xgb/
 ├── embeddings/
 │   ├── X_train.npy
@@ -72,6 +74,8 @@ pere_deer_output_xgb/
 ├── plots/
 ├── reports/
 └── checkpoints/
+
+```
 
 ## Running Inference (`demo.py`)
 
