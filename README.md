@@ -1,6 +1,6 @@
 # Wilds Deer Bioacoustics
 
-A lightweight audio detection pipeline for identifying target wildlife vocalizations (e.g., milu deer) in field recordings.  
+A lightweight audio detection pipeline for identifying target wildlifle vocalizations (e.g., milu deer) in field recordings.  
 This repository provides tools to **train** a binary audio classifier and **run inference** on long recordings to automatically extract detected segments.
 
 The system uses **YAMNet embeddings**, **PCA**, and **XGBoost with probability calibration** to produce interpretable detection scores.
@@ -17,6 +17,16 @@ This directory contains:
 
 - `requirements.txt`  
   A machine-readable list of pinned Python dependencies for reproducibility.
+
+- **Pretrained Model**  
+  A pretrained model bundle is available for immediate use (no training required):  
+  https://huggingface.co/imageomics/pere-david-deer-detection  
+
+  This model includes:
+  - YAMNet feature embeddings
+  - PCA transformation
+  - XGBoost classifier
+  - Probability calibration and decision thresholding
 
 ## Training Dataset (Positives/Negatives)
 
