@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+
+title: "Wilds Deer Bioacoustics"
+version: 1.0.0
+date-released: "2026-04-23"
+
+repository-code: "https://github.com/Imageomics/milu-deer-bioacoustics"
+
+authors:
+  - family-names: "Imageomics Institute"
+
+license: "MIT"  
+
+keywords:
+  - bioacoustics
+  - machine-learning
+  - wildlife
+  - audio-classification
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Imageomics Institute"
+  title: "Wilds Deer Bioacoustics"
+  version: 1.0.0
+  year: 2026
