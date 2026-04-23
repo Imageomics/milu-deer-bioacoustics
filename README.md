@@ -19,7 +19,7 @@ This directory contains:
   A machine-readable list of pinned Python dependencies for reproducibility.
 
 - **Pretrained Model**  
-  A pretrained model bundle is available for immediate use (no training required):  
+  The pretrained model bundle is available here:  
   https://huggingface.co/imageomics/pere-david-deer-detection  
 
   This model includes:
