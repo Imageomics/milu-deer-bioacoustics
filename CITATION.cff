@@ -1,0 +1,52 @@
+abstract: "A lightweight audio detection pipeline for identifying target wildlife vocalizations (e.g., milu deer) in field recordings. The system uses YAMNet embeddings, PCA, and XGBoost with probability calibration to produce interpretable detection scores."
+authors:
+  - family-names: Viswapriyan
+    given-names: Varun
+  - family-names: Kline
+    given-names: Jenna
+  - family-names: Pillai
+    given-names: Bharath
+cff-version: 1.2.0
+date-released: "2026-04-27"
+keywords:
+  - imageomics
+  - bioacoustics
+  - wildlife
+  - audio-classification
+  - deer
+  - milu
+  - YAMNet
+  - XGBoost
+license: CC0-1.0
+message: "If you find this software helpful in your research, please cite it using the metadata in this file."
+repository-code: "https://github.com/Imageomics/milu-deer-bioacoustics"
+title: "Wilds Deer Bioacoustics"
+version: 1.0.0
+type: software
+references:
+  - authors:
+      - family-names: Viswapriyan
+        given-names: Varun
+    title: "Pere David's Deer Vocalizations (The Wilds, Ohio)"
+    type: data
+    date-released: "2026-01-25"
+    url: "https://huggingface.co/datasets/imageomics/pere-david-deer-vocalizations"
+  - authors:
+      - family-names: Wani
+        given-names: Tanishka
+      - family-names: Patil
+        given-names: Vedant
+      - family-names: Katole
+        given-names: Rugved
+      - family-names: Pillai
+        given-names: Bharath
+      - family-names: Potlapally
+        given-names: Anirudh
+      - family-names: Bonney
+        given-names: Ally
+      - family-names: Kline
+        given-names: Jenna
+    title: "The Wilds Bioacoustic Monitors"
+    type: data
+    date-released: "2026-01-25"
+    url: "https://huggingface.co/datasets/imageomics/thewilds_bioacousticmonitors"
