@@ -18,6 +18,16 @@ This directory contains:
 - `requirements.txt`  
   A machine-readable list of pinned Python dependencies for reproducibility.
 
+- **Pretrained Model**  
+  The pretrained model bundle is available here:  
+  https://huggingface.co/imageomics/pere-david-deer-detection  
+
+  This model includes:
+  - YAMNet feature embeddings
+  - PCA transformation
+  - XGBoost classifier
+  - Probability calibration and decision thresholding
+
 ## Training Dataset (Positives/Negatives)
 
 This project uses the [imageomics/pere-david-deer-vocalizations dataset](https://huggingface.co/datasets/imageomics/pere-david-deer-vocalizations), published on Hugging Face.
